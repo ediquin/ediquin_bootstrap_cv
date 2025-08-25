@@ -1,0 +1,321 @@
+section {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+h1 {
+font-size: 2.5rem;
+font-family: "Rubik Dirt", serif;
+}
+.seccion-oscura {
+color: white;
+background-color: rgba(100, 73, 73, 0.753);
+}
+.seccion-clara {
+color: black;
+background-color: bisque;
+}
+.seccion-titulo{
+font-size: 2rem;
+padding: 15px 0;
+font-family: 'Rubik Dirt', cursive;
+}
+.seccion-descripcion{
+font-size: 1.2rem;
+color: #462525;
+}
+.seccion-texto {
+font-size: 1.2rem;
+}
+.texto-negro {
+color: black;
+}
+.texto-blanco {
+color: white;
+}
+/*Barra de Navegación */
+.navbar {
+padding: 2rem;
+background-color: #c5c908;
+}
+.navbar-collapse {
+align-items: center;
+justify-content: space-between;
+}
+/* Hero */
+.hero {
+background-color: #c5c908;
+min-height: 450px;
+text-align: center;
+}
+.hero-principal{
+padding: 3rem;
+}
+.hero-principal h2 {
+font-size: 1.5rem;
+color: #ffffff;
+}
+.hero-imagen-desarrollador{
+width: 200px;
+height: 200px;
+margin: 20px;
+}
+/* Sobre mi*/
+.sobre-mi {
+min-height: 500px;
+padding: 10px;
+}
+.sobre-mi .contenedor {
+max-width: 600px;
+text-align: center;
+}
+/* Experiencia*/
+.experiencia {
+padding: 40px 40px 60px 40px;
+}
+.experiencia .columna {
+padding: 20px;
+border: 2px solid #8080804d;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: baseline;
+transition: all 0.1s ease-in;
+}
+.experiencia .columna:hover {
+color: white;
+background-color: #0a0a23;
+}
+.experiencia i {
+font-size: 2.5rem;
+color: #629166;
+background-color: #0a0a23;
+padding: 8px 19px;
+border-radius: 50%;
+}
+.experiencia-titulo {
+font-size: 25px;
+font-weight: bold;
+margin: 10px 0;
+}
+.badges-contenedor {
+font-size: 20px;
+font-weight: bold;
+margin: 10px 0;
+}
+.badge {
+margin: 5px;
+}
+/* Proyectos */
+.proyectos-recientes {
+padding: 40px;
+}
+.proyectos-recientes img {
+height: 20rem;
+object-fit: cover;
+object-position: center center;
+width: 100%;
+padding: 10px;
+border-radius: 10px;
+display: block;
+transition: all 0.2s ease;
+}
+.proyectos-contenedor {
+padding-top: 60px;
+margin-bottom: 40px;
+}
+.overlay {
+transition: all 0.2s ease;
+opacity: 0;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+text-align: center;
+}
+.overlay p {
+font-size: 25px;
+font-weight: bold;
+margin-bottom: 0;
+}
+.proyecto {
+position: relative;
+color: black;
+}
+.proyecto:hover img {
+opacity: 0.2;
+}
+.proyecto:hover .overlay {
+opacity: 1;
+}
+.iconos-contenedor {
+display: flex;
+justify-content: center;
+gap: 10px;
+margin-top: 10px;
+}
+.iconos-contenedor a {
+color: black;
+font-size: 1.5rem;
+text-decoration: none;
+}
+.iconos-contenedor a:hover {
+color: #c5c908;
+}
+/* Artículos */
+.articulos {
+min-height: 500px;
+padding: 30px;
+}
+.articulos .card {
+width: 80%;
+max-width: 600px;
+margin: 20px;
+}
+.articulos .card-header {
+font-weight: bold;
+color: #462525;
+}
+.articulos .list-group-item {
+border: none;
+padding: 15px;
+}
+.articulos .list-group-item:hover {
+background-color: #f8f9fa;
+}
+.articulos a {
+text-decoration: none;
+color: inherit;
+}
+/* Testimonios */
+.testimonios {
+padding: 40px 40px 80px 40px;
+}
+.testimonios .carousel {
+  max-width: 800px;
+}
+
+.carousel-item {
+  height: 500px;
+}
+
+.carousel-item .container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.testimonio-imagen {
+height: 150px;
+width: 150px;
+margin: 10px 10px 20px 10px;
+}
+.testimonio-texto {
+max-width: 70%;
+font-size: 1.2rem;
+text-align: center;
+font-family: 'Share Tech Mono', monospace;
+font-weight: 400;
+color: #462525;
+}
+.testimonio-info {
+font-weight: bold;
+text-align: center;
+}
+.testimonio-info p {
+margin-bottom: 0;
+}
+.cliente {
+font-size: 1.2rem;
+}
+.cargo {
+font-size: 1rem;
+color: #656565;
+}
+/* Contacto */
+.contacto {
+background-color: rgba(100, 73, 73, 0.753);
+min-height: 200px;
+padding: 50px;
+}
+.contacto .rectangulo {
+background-color: rgba(255, 255, 255, 0.1);
+border-radius: 13px;
+box-shadow: 0px 1px 4px 1px white;
+color: white;
+padding: 25px;
+}
+.contacto .rectangulo .descripcion {
+font-size: 1.2rem;
+}
+.contacto button {
+background-color: #c5c908;
+border: none;
+border-radius: 10px;
+color: black;
+font-weight: bold;
+padding: 10px 20px;
+font-size: 1.1rem;
+}
+.contacto button:hover {
+background-color: #a0a007;
+}
+/* Footer */
+footer {
+min-height: 500px;
+color: white;
+}
+.footer-logo {
+height: 100%;
+width: 80px;
+margin: 10px;
+}
+.footer-texto {
+font-size: 1.5rem;
+padding: 20px;
+margin-bottom: 30px;
+}
+.iconos-redes-sociales a {
+width: 50px;
+height: 50px;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 2px;
+margin: 10px;
+border: 2px solid white;
+border-radius: 50%;
+transition: all 0.2s ease-in;
+color: white;
+text-decoration: none;
+}
+.iconos-redes-sociales i {
+font-size: 1.5rem;
+color: white;
+}
+.iconos-redes-sociales a:hover {
+background-color: white;
+border: 2px solid white;
+}
+.iconos-redes-sociales a:hover i {
+color: black;
+}
+.derechos-de-autor {
+font-size: 15px;
+color: #aeaeae;
+padding: 20px;
+}
+/* Hide logo on small screens */
+@media screen and (max-width: 767px) {
+.navbar-brand {
+    display: none;
+}
+}
+@media screen and (min-width: 700px){
+.hero-inferior-imagen {
+    max-width: 550px;
+}
+}
